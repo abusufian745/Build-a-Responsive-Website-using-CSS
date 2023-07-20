@@ -174,3 +174,36 @@ nav{
     }
 
 /* products sections style starts */
+
+
+/* review section styles starts */
+
+.review-container{
+    min-height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.single-review{
+    flex-basis: 300px;
+    background-color: #e893cf;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.single-review img {
+    width: 60px;
+    height: 60px;
+}
+
+.top-review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* review section styles ends */
